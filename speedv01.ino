@@ -9,7 +9,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 #define pinIRexit D4
 #define pinIRentry D3
-#define sw1 D5
+#define btn1 D5
+
 unsigned long pMillis = 0L;
 unsigned long cMillis = 0L;
 const long intervalDisplay = 100L;
@@ -22,6 +23,7 @@ unsigned long t1 = 0L;
 
 double vReal = 0;
 double vModel = 0;
+
 void setup() {
   Serial.begin(9600);
   if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
@@ -33,13 +35,13 @@ void setup() {
     
   pinMode(pinIRentry,INPUT);  // IR Sensor Input 0
   pinMode(pinIRexit,INPUT);   // IR Sensor Input 1
-  pinMode(sw1,INPUT_PULLUP);  // switch input + builtin pullup resistor
+  pinMode(btn1,INPUT_PULLUP);  // button input + builtin pullup resistor
 }
 
 void loop() {
   
-  if(digitalRead(sw1) == 0){
-    t0 = 0,
+  if(digitalRead(btn1) == 0){
+    t0 = 0;
     t1 = 0;
     vReal = 0;
     vModel = 0;
