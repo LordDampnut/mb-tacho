@@ -1,7 +1,12 @@
 # Übersicht
 Das Modellbahn Tachometer ist ein Hilfsmittel zur Bestimmung der Maßstabsgerechten Geschwindigkeit von Modelleisenbahnen. Folgender Prototyp wurde dafür entwickelt.
 
-(Bild)
+Vorderseite:
+![Front](https://i.imgur.com/20JKZne.jpg)
+
+Rückseite:
+![Back](https://i.imgur.com/RzJ2OmC.jpg)
+
 ## Komponenten
 - 1x WeMos D1 Mini
 - 1x 128x32 SSD1306 0.91" I2C OLED Screen
