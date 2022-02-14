@@ -22,6 +22,13 @@ Zur Validierung der Rechnung wurde folgendes Tool benutzt:
 
 http://www.modell-bahner.net/rechner.php
 
+## Anleitung
+
+Die Lokomotive muss sich von links nach rechts an den Sensoren vorbeibewegen. Der Messabstand beträgt maximal ca. 3cm. Grüne LEDs an den IR-Sensoren zeigen ob die Lichtschranke ausgelöst wurde. Direkt nach dem Passieren der zweiten Lichtschranke wird auf dem Bildschirm die Modell- und Realgeschwindigkeit ausgegeben. Um erneut eine Messug durchzuführen werden mit dem Button die Werte zurückgesetzt.
+
+Beschleunigen der Lokomotive während der Messung kann das Ergebnis verfälschen. Es sollte darauf geachtet werden, dass der Zug die Lichtschranken mit konstanter Geshwindigkeit passiert.
+
+
 ## To-Do
 - Zweiter Button zur Auswahl des Modellmaßstabs
 - ???
