@@ -27,6 +27,12 @@ Zur Validierung der Rechnung wurde folgendes Tool benutzt:
 
 http://www.modell-bahner.net/rechner.php
 
+Anschlussreihenfolge der Sensorkabel ("Oben nach Unten"):
+
+* DATA - Grau
+* GND - Schwarz
+* 3V3 - Weiß
+
 ## Anleitung
 
 Die Lokomotive muss sich von links nach rechts an den Sensoren vorbeibewegen. Der Messabstand beträgt maximal ca. 3cm. Grüne LEDs an den IR-Sensoren zeigen ob die Lichtschranke ausgelöst wurde. Direkt nach dem Passieren der zweiten Lichtschranke wird auf dem Bildschirm die Modell- und Realgeschwindigkeit ausgegeben. Um erneut eine Messug durchzuführen werden mit dem Button die Werte zurückgesetzt.
@@ -36,4 +42,5 @@ Beschleunigen der Lokomotive während der Messung kann das Ergebnis verfälschen
 
 ## To-Do
 - Zweiter Button zur Auswahl des Modellmaßstabs
-- ???
+- Durchschalten der Maßstäbe nach gebräuchlichen Nenngrößen: [Liste: Wikipedia](https://de.wikipedia.org/wiki/Ma%C3%9Fst%C3%A4be_der_Modelleisenbahn#Nenngr%C3%B6%C3%9Fen,_Ma%C3%9Fst%C3%A4be_und_Spurweiten)
+- Fahrtrichtung Links > Rechts und Rechts > Links umschalten (Button / Buttonkombination oder Automatisch?)
